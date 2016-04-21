@@ -1,0 +1,126 @@
+/* css file for the portfolio project
+*
+* Date: 04/20/16
+* initial file
+*
+* end */
+
+html {
+    box-sizing: border-box;
+    margin-top:0;
+    padding-top:0;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+h1 {
+    font-size: 200%;
+}
+h2 {
+    font-size: 150%;
+}
+h3 {
+    font-size: 113%;
+}
+h4 {
+    font-size: 100%;
+}
+h5 {
+    font-size: 82%;
+}
+h6 {
+    font-size: 63%;
+}
+
+@media (min-width: 48rem) {
+    .content {
+        width: 46rem;
+    }
+}
+
+@media (min-width: 62rem) {
+    .content {
+        width: 60rem;
+    }
+}
+
+
+@media (min-width: 75rem) {
+    .content {
+        width: 60%;
+    }
+}
+
+a {
+    /* Typography Declrations */
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFCF33;
+}
+
+a:link, a:active {
+    text-decoration: none;
+    /*  color: #ff9900;*/
+    color: #ffcf33;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FFE799;
+}
+
+a:visited {
+    /* Typography Declarations */
+    text-decoration: none;
+    color: #D1A000;
+}
+
+
+body {
+    /*	background-color: #dddddd; */
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    letter-spacing: 0.03em;
+    margin-top:0;
+    padding-top:0;
+    width: 100%;
+    background-color: darkblue;
+}
+
+.masthead {
+    border; 1px solid orange;
+    background-color: yellow;
+    height: 30em;
+}
+
+.masthead ul  {
+    margin: 0;
+    padding-top: 15px;
+    padding-right: 15px;
+    float: right;
+}
+.masthead li {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.about {
+    border: 1px solid mediumvioletred;
+    background-color: #FFE799;
+}
+
+.projects {
+    border: 1px solid mediumvioletred;
+    background-color: pink;
+}
+
+.foot {
+    border: 1px solid dodgerblue;
+    background-color: #D1A000;
+}
+
+.content {
+    margin: 0 auto;
+}

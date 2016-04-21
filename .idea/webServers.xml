@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0fcd396a-e978-47ba-8194-d370d1b6bc2a" name="dj-felderman-portfolio" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="/Applications/MAMP/htdocs/thinkful/portfolio" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
