@@ -89,9 +89,27 @@ body {
     background-color: darkblue;
 }
 
+.navbar {
+    height: 4em;
+}
+
+/*
+.navbar ul  {
+    margin: 0;
+    padding-top: 15px;
+    padding-right: 15px;
+    float: right;
+}
+
+
+.navbar li {
+    display: inline-block;
+    padding-left: 15px;
+}
+*/
 .masthead {
-    border; 1px solid orange;
-    background-color: yellow;
+    border; 1px solid #ffa500;
+    background-color: #ffe799;
     height: 30em;
 }
 
@@ -106,9 +124,45 @@ body {
     padding-left: 15px;
 }
 
+.masthead-intro,
+.masthead-heading,
+.masthead-heading,
+.masthead-heading2 {
+    text-align: center;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em ;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    color: #ff260d;
+}
+
+.masthead-heading {
+    margin-top: -0.2em ;
+    font-family: "Open Sans", "Helvetica Neue",   sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    letter-spacing: -0.02em;
+    color: #ff650f;
+    text-transform: uppercase;
+}
+
+.masthead-heading2 {
+    margin-top: -0.2em ;
+    font-family: "Open Sans", "Helvetica Neue",   sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: -0.02em;
+    color: #ff650f;
+    text-transform: uppercase;
+}
+
 .about {
     border: 1px solid mediumvioletred;
-    background-color: #FFE799;
+    background-color: #feffcd;
 }
 
 .projects {
