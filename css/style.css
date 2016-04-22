@@ -160,16 +160,34 @@ body {
     text-transform: uppercase;
 }
 
+.section_head {
+    padding-left:3.5em;
+    font-weight: 300;
+    color: #333333;
+}
+
 .about {
     border: 1px solid mediumvioletred;
     background-color: #feffcd;
 }
 
+.about p {
+    padding: 0 1.5em;
+    font-weight: 200;
+}
 .projects {
     border: 1px solid mediumvioletred;
     background-color: pink;
+    width: 100%;
 }
 
+.projects .content {
+    text-align: center;
+}
+.projectImage {
+    width: 80%;
+    padding: 1.5em;
+}
 .foot {
     border: 1px solid dodgerblue;
     background-color: #D1A000;
