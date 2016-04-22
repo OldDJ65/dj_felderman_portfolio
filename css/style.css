@@ -136,7 +136,8 @@ body {
 
 .masthead-intro {
     margin-bottom: 0.1em ;
-    font-family: "Gentium Book Basic", Georgia, serif;
+    /*font-family: "Gentium Book Basic", Georgia, serif;*/
+    /*font-family: "Gentium Book Basic", Georgia, serif;*/
     font-weight: bold;
     font-size: 6em;
     letter-spacing: -0.02em;
@@ -145,7 +146,7 @@ body {
 
 .masthead-heading {
     margin-top: -0.2em ;
-    font-family: "Open Sans", "Helvetica Neue",   sans-serif;
+    /*font-family: "Open Sans", "Helvetica Neue",   sans-serif;*/
     font-weight: 300;
     font-size: 2em;
     letter-spacing: -0.02em;
@@ -155,7 +156,7 @@ body {
 
 .masthead-heading2 {
     margin-top: -0.2em ;
-    font-family: "Open Sans", "Helvetica Neue",   sans-serif;
+    /*font-family: "Open Sans", "Helvetica Neue",   sans-serif;*/
     font-weight: 300;
     font-size: 1em;
     letter-spacing: -0.02em;
@@ -171,6 +172,7 @@ body {
 
 .about {
     /*border: 1px solid mediumvioletred;*/
+    font-family: 'Oxygen', sans-serif;
     background-color: #cbcbcb;
     padding-top: .8em;
     padding-bottom: .8em;
